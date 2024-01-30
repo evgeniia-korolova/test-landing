@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+:root {
+    --dark-color: #000000;
+    --selection-color: #9197B3;
+    --accent-color: #5932EA;
+    --color-light: #FFF;
+    --bg-main: #FAFBFF;
+    --bg-content: #FFF;
+    --color-green: #16C098;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg-main);
+    display: flex;
+
+}
+ul {
+    list-style: none;
+}
+
+.menu {
+    max-width: 306px;
+    width: 100%;
+    padding: 37px 28px 78px;
+    background: var(--bg-content);
+}
+
+h1 {
+    display: flex;
+    align-items: stretch;
+    gap: 8px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px; 
+    color: var(--dark-color);
+    margin-bottom: 43px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.14px;
+    color: var(--selection-color);
+    padding: 13px 8px 12px 11px;
+}
+
+.item__content {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.item__accent {
+    background: var(--accent-color);
+    border-radius: 8px;
+    font-weight: 500;
+    color: var(--color-light);
+}
+
+.customers {
+max-width: 1134px;
+width: 100%;
+padding: 41px 95px 258px 73px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--dark-color);
+    margin-bottom: 51px;
+}
+
+.customers__container {
+    /* max-width: 1134px;
+    width: 100%; */
+    padding: 32px 44px 40px 38px;
+    background: var(--bg-content);
+    border-radius: 30px;
+}
+
+.customers__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+    margin-bottom: 40px;
+}
+
+.info__title {
+    font-size: 22px;
+    font-weight: 600;
+    /* letter-spacing: -0.22px; */
+    color: var(--dark-color);
+    margin-bottom: 8px;
+}
+
+.info__subtitle {
+    font-size: 14px;
+    color: var(--color-green);
+    letter-spacing: -0.14px;
+}
+
+.table__line {
+    display: grid;
+    width: 968px;
+    font-size: 14px;
+    font-weight: 500;
+    grid-template-columns: 172px 131px 156px 207px 152px 150px;
+}
